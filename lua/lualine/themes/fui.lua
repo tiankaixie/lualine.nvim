@@ -4,7 +4,7 @@ local colors = {
   gray      = '#44475a',
   lightgray = '#5f6a8e',
   orange    = '#ffb86c',
-  purple    = '#bd93f9',
+  purple    = '#617a81',
   red       = '#ff5555',
   yellow    = '#f1fa8c',
   green     = '#50fa7b',
@@ -14,8 +14,8 @@ local colors = {
 
 return {
   normal = {
-    a = { bg = colors.purple, fg = colors.black, gui = 'bold' },
-    b = { bg = colors.lightgray, fg = colors.white },
+    a = { bg = "#617a81", fg = "#2a3337", gui = 'bold' },
+    b = { bg = "#171b1d", fg = "#273839" },
     c = { bg = colors.gray, fg = colors.white },
   },
   insert = {
